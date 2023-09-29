@@ -1,12 +1,32 @@
-def calculate():
-    """
-    calculates the total
-    :return: None
-    """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+from flask import Flask, jsonify, request
+from todoItem import TodoItem
+from todoDao import TodoDao
 
+
+# Flask App initialisieren und TodoDao-Objekt erstellen
+app = ...
+dao = ...
+dao.create_table()
+
+def add_todo():
+    # TODO: Implementiere das Hinzufügen eines neuen ToDo-Elements
+    return jsonify({"message": "Not implemented yet"}), 501
+
+def get_all_todos():
+    # TODO: Implementiere das Abrufen aller ToDo-Elemente
+    return jsonify({"message": "Not implemented yet"}), 501
+
+def get_todo(item_id):
+    # TODO: Implementiere das Abrufen eines einzelnen ToDo-Elements
+    return jsonify({"message": "Not implemented yet"}), 501
+
+def update_todo(item_id):
+    # TODO: Implementiere das Aktualisieren eines ToDo-Elements
+    return jsonify({"message": "Not implemented yet"}), 501
+
+def delete_todo(item_id):
+    # TODO: Implementiere das Löschen eines ToDo-Elements
+    return jsonify({"message": "Not implemented yet"}), 501
 
 if __name__ == '__main__':
-    calculate()
+    app.run(debug=True)
