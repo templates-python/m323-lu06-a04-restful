@@ -1,14 +1,32 @@
 [
   {
-    "name": "Input/Output",
-    "function": "Input/Output",
+    "name": "Add Element",
+    "function": "test_add_todo",
     "timeout": 1,
     "points": 1
   },
   {
-    "name": "Pytest",
-    "function": "Pytest",
+    "name": "Get All",
+    "function": "test_get_all_todos",
     "timeout": 10,
     "points": 2
+  },
+  {
+    "name": "Get One",
+    "function": "test_get_specific_todo",
+    "timeout": 1,
+    "points": 1
+  },  
+  {
+    "name": "Update",
+    "function": "test_update_todo",
+    "timeout": 1,
+    "points": 1
+  },  
+  {
+    "name": "Delete",
+    "function": "test_delete_todo",
+    "timeout": 1,
+    "points": 1
   }
 ]
