@@ -1,3 +1,8 @@
+"""Erstellen einer RESTful API für die ToDo-Liste mit Flask.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu06/aufgaben/restful
+"""
+
 from flask import Flask, jsonify, request
 from todoItem import TodoItem
 from todoDao import TodoDao
