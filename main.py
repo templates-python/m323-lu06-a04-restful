@@ -4,8 +4,8 @@ Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu06/aufgaben/res
 """
 
 from flask import Flask, jsonify, request
-from todoItem import TodoItem
-from todoDao import TodoDao
+from todo_item import TodoItem
+from todo_dao import TodoDao
 
 
 # Flask App initialisieren und TodoDao-Objekt erstellen
