@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
-from todoItem import TodoItem  # Stellen Sie sicher, dass die TodoItem-Klasse importiert ist
-from todoDao import TodoDao  # Stellen Sie sicher, dass die TodoDao-Klasse importiert ist
+from todo_item import TodoItem  # Stellen Sie sicher, dass die TodoItem-Klasse importiert ist
+from todo_dao import TodoDao  # Stellen Sie sicher, dass die TodoDao-Klasse importiert ist
 
 app = Flask(__name__)
 dao = TodoDao('todo_example.db')
